@@ -12,7 +12,7 @@ h1 {
 }
 
 .half-width {
-    width: 40%;
+    width: 39%;
     padding: 3%;
     margin: 2%;
     float: left;
@@ -40,4 +40,40 @@ section {
     border-radius: 5px;
     color: white;
     font-weight: 700px;
+}
+
+.dream-area {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.full-stack {
+    box-shadow: 7px 7px 40px gray;
+    border-radius: 5px;
+    height: 70%;
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+
+}
+
+.pro-full-stack {
+    box-shadow: 7px 7px 40px gray;
+    border-radius: 5px;
+    height: 70%;
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+
+}
+
+.three-exp {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+footer p {
+    text-align: center;
 }
